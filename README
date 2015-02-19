@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5113
+
+Sonic Pi is a "free sound synthesiser for live coding designed to support computing and music lessons within schools," a Ruby-based frontend to a SuperCollider server, and an accessible GUI to support the above (http://www.sonic-pi.net).
+
+This vim plugin is intended as a replacement for the "accessible GUI," extending Ruby's syntax highlighting to include Sonic Pi directives, supporting contextual autocompletion (for omnicomplete), and sending Sonic Pi code to the Sonic Pi server.
+
+It becomes active when Sonic Pi is running and the Ruby filetype event occurs, unless explicitly disabled as outlined in the README.
+
+It requires Sonic Pi 2.4 or greater, and sonic-pi-cli (https://github.com/Widdershin/sonic-pi-cli/)
